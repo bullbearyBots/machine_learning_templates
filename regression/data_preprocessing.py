@@ -5,7 +5,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder, LabelEncoder, StandardScaler
 from sklearn.model_selection import train_test_split
 
-path = '/machine_learning/machine_learning_a_z/datasets/Data.csv'
+path = 'C:/Users/mpran/Documents/Git/machine_learning_templates/datasets/Data.csv'
 dataset = pd.read_csv(path)
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values

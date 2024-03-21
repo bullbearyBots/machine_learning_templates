@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
 
-path = '/machine_learning/machine_learning_a_z/datasets/Salary_Data.csv'
+path = 'C:/Users/mpran/Documents/Git/machine_learning_templates/datasets/Salary_Data.csv'
 dataset = pd.read_csv(path)
 
 X = dataset.iloc[:, :-1].values

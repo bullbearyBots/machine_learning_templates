@@ -9,8 +9,7 @@ from sklearn.metrics import accuracy_score
 from matplotlib.colors import ListedColormap
 
 
-path = ('C:/Users/mpran/Documents/Git/bullbeary_bots_ai/machine_learning'
-        '/machine_learning_a_z/datasets/')
+path = ('C:/Users/mpran/Documents/Git/machine_learning_templates/datasets/')
 file = 'Social_Network_Ads.csv'
 
 dataset = pd.read_csv(path+file)

@@ -4,8 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.tree import DecisionTreeRegressor
 
 
-path = ('C:/Users/mpran/Documents/Git/bullbeary_bots_ai/machine_learning'
-        '/machine_learning_a_z/datasets/Position_Salaries.csv')
+path = ('C:/Users/mpran/Documents/Git/machine_learning_templates/datasets/Position_Salaries.csv')
 dataset = pd.read_csv(path)
 
 X = dataset.iloc[:, 1:-1].values
